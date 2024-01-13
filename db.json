@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "user_uuid": "6d7e0175-2613-4d29-ac67-215280f0f0df",
+      "username": "Alo Yoga",
+      "handle": "aloyoga",
+      "bio": "Inspiring mindful movement, creating community & supporting mind-body wellness on and off the mat with @alo, @alowellness_, @alomen, @alomoves & you.",
+      "link": "https://www.aloyoga.com/blogs/alo-blog",
+      "img": "https://www.aloyoga.com/blogs/alo-blog/the-iconic-alo-hat-collection",
+      "instagram_url": "https://www.instagram.com/aloyoga/",
+      "followers": [
+        {
+          "user_uuid": "51254a22-fc5e-446f-90a0-5c1d9540d80f"
+        },
+        {
+          "user_uuid": "47a7fe1c-6d2b-48b2-ac34-92797c923e38"
+        },
+        {
+          "user_uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "user_uuid": "51254a22-fc5e-446f-90a0-5c1d9540d80f",
+      "username": "Lululemon",
+      "handle": "lululemon",
+      "bio": "Mindfulness, sweat, community and more. We’re here to inspire you to live #thesweatlife every day.",
+      "link": "https://shop.lululemon.com/",
+      "img": "https://images.lululemon.com/is/image/lululemon/na_Dec23_wk4_D_OTM_1_1_Med_MediaAction_D_Travel?wid=2644&op_usm=0.8,1,10,0&fmt=webp&qlt=80,1&fit=constrain,0&op_sharpen=0&resMode=sharp2&iccEmbed=0&printRes=72",
+      "instagram_url": "https://www.instagram.com/lululemon",
+      "followers": [
+        {
+          "user_uuid": "6d7e0175-2613-4d29-ac67-215280f0f0df"
+        },
+        {
+          "user_uuid": "47a7fe1c-6d2b-48b2-ac34-92797c923e38"
+        },
+        {
+          "user_uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315",
+      "username": "Nike",
+      "handle": "nike",
+      "bio": "Spotlighting athlete and stories",
+      "link": "https://www.nike.com",
+      "img": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/04da6dd1-d863-40bf-8d38-38b5aed3e015/koszulka-o-skroconym-kroju-z-dlugim-rekawem-dri-fit-pro-365-fC1267.png",
+      "instagram_url": "https://www.instagram.com/nike",
+      "followers": [
+        {
+          "user_uuid": "6d7e0175-2613-4d29-ac67-215280f0f0df"
+        },
+        {
+          "user_uuid": "51254a22-fc5e-446f-90a0-5c1d9540d80f"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Jan 13 2024 18:16:22 GMT+0100",
+      "thread_from": "6d7e0175-2613-4d29-ac67-215280f0f0df",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Move into wellness",
+      "likes": [
+        {
+          "uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
+        },
+        {
+          "uuid": "51254a22-fc5e-446f-90a0-5c1d9540d80f"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Jan 13 2024 19:16:22 GMT+0100",
+      "thread_from": "6d7e0175-2613-4d29-ac67-215280f0f0df",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Recovery Stretch Flow Alo Yoga IG live",
+      "likes": [
+        {
+          "uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
+        },
+        {
+          "uuid": "51254a22-fc5e-446f-90a0-5c1d9540d80f"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Jan 13 2024 19:16:22 GMT+0100",
+      "thread_from": "51254a22-fc5e-446f-90a0-5c1d9540d80f",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Introduction stackable supplements.",
+      "likes": [
+        {
+          "uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
+        },
+        {
+          "uuid": "6d7e0175-2613-4d29-ac67-215280f0f0df"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "Jan 13 2024 19:19:22 GMT+0100",
+      "thread_from": "6d7e0175-2613-4d29-ac67-215280f0f0df",
+      "thread_to": "51254a22-fc5e-446f-90a0-5c1d9540d80f",
+      "reply_to": 1,
+      "text": "Awesome!",
+      "likes": [
+        {
+          "uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
+        },
+        {
+          "uuid": "6d7e0175-2613-4d29-ac67-215280f0f0df"
+        }
+      ]
+    }
+  ]
+}
