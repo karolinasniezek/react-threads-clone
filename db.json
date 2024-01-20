@@ -71,26 +71,23 @@
       "text": "Move into wellness",
       "likes": [
         {
-          "uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
+          "user_uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
         },
         {
-          "uuid": "51254a22-fc5e-446f-90a0-5c1d9540d80f"
+          "user_uuid": "51254a22-fc5e-446f-90a0-5c1d9540d80f"
         }
       ]
     },
     {
       "id": 1,
       "timestamp": "Jan 13 2024 19:16:22 GMT+0100",
-      "thread_from": "6d7e0175-2613-4d29-ac67-215280f0f0df",
+      "thread_from": "51254a22-fc5e-446f-90a0-5c1d9540d80f",
       "thread_to": null,
       "reply_to": null,
       "text": "Recovery Stretch Flow Alo Yoga IG live",
       "likes": [
         {
-          "uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
-        },
-        {
-          "uuid": "51254a22-fc5e-446f-90a0-5c1d9540d80f"
+          "user_uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
         }
       ]
     },
@@ -103,10 +100,7 @@
       "text": "Introduction stackable supplements.",
       "likes": [
         {
-          "uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
-        },
-        {
-          "uuid": "6d7e0175-2613-4d29-ac67-215280f0f0df"
+          "user_uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
         }
       ]
     },
@@ -119,10 +113,7 @@
       "text": "Awesome!",
       "likes": [
         {
-          "uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
-        },
-        {
-          "uuid": "6d7e0175-2613-4d29-ac67-215280f0f0df"
+          "user_uuid": "50928258a-a7f5-436d-9943-d7d1e9a8c315"
         }
       ]
     }

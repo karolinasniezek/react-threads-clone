@@ -9,8 +9,9 @@ const App = () => {
     const [ user, setUser ] = useState(null)
     const [threads, setThreads] = useState([])
     const [ viewThreadsFeed, setViewThreadsFeed ] = useState(true)
-    const [filteredThreads, setFilteredThreads] = useState([])
+    const [filteredThreads, setFilteredThreads] = useState(null)
     const [ openPopUp, setOpenPopUp ] = useState(false)
+    const [ interactingThread, setInteractingThread ] = useState(null)
 
     const userId = "6d7e0175-2613-4d29-ac67-215280f0f0df"
 
@@ -46,6 +47,10 @@ const App = () => {
         }
     }
 
+    const getReplies = async () => {
+        const response = await fetch(``)
+    }
+
     useEffect(() => {
         getUser()
         getThreads()
@@ -57,6 +62,8 @@ const App = () => {
 
     console.log(filteredThreads)
 
+    console.log('inteacting threadr' + interactingThread)
+    console.log('interactingThread in App:', interactingThread);
     return (
         <>
             { user && <div className="app">
@@ -70,6 +77,8 @@ const App = () => {
                     user={user}
                     setOpenPopUp={setOpenPopUp}
                     filteredThreads={filteredThreads}
+                    getThreads={getThreads}
+                    setInteractingThread={setInteractingThread}
                 />
                 {openPopUp &&
                     <PopUp
@@ -82,7 +91,7 @@ const App = () => {
                 </div>
             </div> }
         </>
-    );
+);
 }
 
 export default App;
